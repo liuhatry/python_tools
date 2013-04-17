@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 a = [x for x in range(100)]
 x = 21
 
@@ -8,7 +10,7 @@ def midfind(a,x):
 
     print (a)
     while True:
-        mid_index =int( (min_index+max_index)/2 )
+        mid_index = (min_index+max_index) // 2 
         iter += 1
         print('Times:', iter)
         print('min:', a[min_index],'max:', a[max_index],'mid:', a[mid_index])
